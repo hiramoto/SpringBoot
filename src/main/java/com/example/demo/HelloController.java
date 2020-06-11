@@ -14,10 +14,4 @@ public class HelloController
     public String home() {
         return "Hello world!";
     }
-
-    @RequestMapping("test")
-    @ResponseBody
-    public String test() {
-        return "test";
-    }
 }
